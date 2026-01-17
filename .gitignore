@@ -1,0 +1,34 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# OS / Editor
+.DS_Store
+.idea/
+.vscode/
+
+# Caches / coverage
+.cache
+.eslintcache
+coverage
+
+# Env files (keep only the example in git)
+.env
+.env.*
+!.env.example
+!.env.sample
+env.local
+
+# Netlify
+.netlify
+
+

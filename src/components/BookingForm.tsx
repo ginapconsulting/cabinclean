@@ -224,7 +224,7 @@ export function BookingForm({ onConfirmed }: { onConfirmed: (data: any) => void 
 						<div className="row">
 							<div className="col-6">
 								<label htmlFor="phone">Phone</label>
-								<input id="phone" value={phone} onChange={e => setPhone(e.target.value)} placeholder="(416) 555?1234" />
+								<input id="phone" value={phone} onChange={e => setPhone(e.target.value)} placeholder="(416) 555-1234" />
 							</div>
 							<div className="col-6">
 								<label htmlFor="province">Province</label>

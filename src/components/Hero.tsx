@@ -9,7 +9,7 @@ export function Hero() {
 				<p>Fresh inside, on-demand. Book a 1-hour interior clean anywhere in the GTA.</p>
 				<div className="actions">
 					<a className="btn primary" href="#book">Book now - from $50</a>
-					<a className="btn ghost" href="#details">See whatÅfs included</a>
+					<a className="btn ghost" href="#details">See what's included</a>
 				</div>
 			</div>
 		</header>

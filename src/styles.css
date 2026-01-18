@@ -68,10 +68,8 @@ input, select, textarea {
 	padding: 6px 10px; border-radius: 999px;
 }
 .leaf {
-	width: 18px; height: 18px; display: inline-block; background:
-		conic-gradient(from 0deg, #fff 0 20deg, transparent 0 360deg);
-	mask: url('/favicon.svg') center/contain no-repeat;
-	-webkit-mask: url('/favicon.svg') center/contain no-repeat;
+	width: 18px; height: 18px; display: inline-block;
+	background: url('/maple.svg') center/contain no-repeat;
 }
 
 /* Booking form */

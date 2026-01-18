@@ -190,7 +190,7 @@ export function BookingForm({ onConfirmed }: { onConfirmed: (data: any) => void 
 				<div>
 					<label>Available times (Eastern Time)</label>
 					<div className="chips" aria-live="polite">
-						{loadingSlots && <span>LoadingÅc</span>}
+						{loadingSlots && <span>Loading...</span>}
 						{!loadingSlots && slots.length === 0 && <span>No availability for this date.</span>}
 						{slots.map(s => {
 							const dt = DateTime.fromISO(s).setZone(BUSINESS_TZ);
@@ -235,7 +235,7 @@ export function BookingForm({ onConfirmed }: { onConfirmed: (data: any) => void 
 						</div>
 
 						<label>Search address (Canada)</label>
-						<input value={query} onChange={e => setQuery(e.target.value)} placeholder="Start typing your addressÅc" />
+						<input value={query} onChange={e => setQuery(e.target.value)} placeholder="Start typing your address..." />
 						{suggestions.length > 0 && (
 							<ul className="list card" style={{ marginTop: 8 }}>
 								{suggestions.map((s, i) => (
@@ -276,7 +276,7 @@ export function BookingForm({ onConfirmed }: { onConfirmed: (data: any) => void 
 						</div>
 
 						<label htmlFor="notes">Notes (optional)</label>
-						<textarea id="notes" value={notes} onChange={e => setNotes(e.target.value)} placeholder="Parking or building notesÅc" />
+						<textarea id="notes" value={notes} onChange={e => setNotes(e.target.value)} placeholder="Parking or building notes..." />
 					</>
 				)}
 
